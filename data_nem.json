@@ -32,7 +32,7 @@
           "description": "Nhập Cloudflare GLOBAL API KEY theo tài khoản"
         }
       ],
-      "name": "Nhập đầy đủ tên miền tại đây",
+      "name": "",
       "image": "oznu/cloudflare-ddns",
       "network": "bridge",
       "restart_policy": "unless-stopped",
@@ -40,7 +40,8 @@
       "logo": "https://raw.githubusercontent.com/minhtribtc/NextZen/main/icons/cloudflare.svg",
       "platform": "linux",
       "title": "NextZen Cloudflare DDNS",
-      "type": 1
+      "type": 1,
+      "name_description": "Nhập đầy đủ tên miền tại đây:"
     },
     {
       "id": 2,
@@ -84,7 +85,8 @@
         "url": "https://github.com/minhtribtc/NextZen"
       },
       "title": "NextZen Nextcloud AIO NAS",
-      "type": 3
+      "type": 3,
+      "name_description": "NextZen-Nextcloud-AIO-NAS"
     }
   ]
 }
